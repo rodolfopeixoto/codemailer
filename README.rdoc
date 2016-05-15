@@ -61,3 +61,25 @@ Devise
 = Creating the user MAILER
 
  rails g mailer user_mailer
+
+= Preview
+http://localhost:3000/rails/mailers/user_mailer/welcome_email_preview
+
+= SETTING UP A MANDRILL ACCOUNT
+https://mandrill.com/
+Sign up
+On the settings tab create a new api key and take note of the following details:
+1 - host
+2 - username
+3 - password (api key)
+
+Added in Gemfile 
+gem 'dotenv-rails', :groups => [:development, :test]
+
+create file .env
+
+touch .env
+
+in mailchimp, click em Account(picture) -> Transactional -> Mandrill -> Launch Mandrill
+
+
