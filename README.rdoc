@@ -56,3 +56,8 @@ Gems:
 Bootstrap 
 Simple Form
 Devise
+
+
+= Creating the user MAILER
+
+ rails g mailer user_mailer
